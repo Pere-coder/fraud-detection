@@ -57,5 +57,4 @@ def get_numerical_features(username):
 
 # --- Example of the output you requested ---
 result = get_numerical_features("pereproxima")
-print(" ".join(map(str, result))) 
-# Output: 1 0.27 2 0.00 0 53 0 0 32 1000 955
+print(result) 
