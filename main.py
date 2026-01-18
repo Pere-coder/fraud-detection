@@ -1,4 +1,5 @@
 import instaloader
+from model import predict_fraud
 
 def get_numerical_features(username):
     L = instaloader.Instaloader()
@@ -57,4 +58,4 @@ def get_numerical_features(username):
 
 # --- Example of the output you requested ---
 result = get_numerical_features("pereproxima")
-print(result) 
+predict_fraud(result)
