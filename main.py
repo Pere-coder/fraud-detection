@@ -54,9 +54,9 @@ def get_numerical_features(username):
         profile.followees
     ]
     
-    return feature_vector
 
-# --- Example of the output you requested ---
-result = get_numerical_features("pereproxima")
-ans = predict_fraud(result)
-print(ans)
+    ans = predict_fraud(feature_vector)
+    return ans
+
+
+
