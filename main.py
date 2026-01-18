@@ -58,4 +58,5 @@ def get_numerical_features(username):
 
 # --- Example of the output you requested ---
 result = get_numerical_features("pereproxima")
-predict_fraud(result)
+ans = predict_fraud(result)
+print(ans)
